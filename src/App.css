@@ -1,0 +1,121 @@
+.App {
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.albums {
+  background-color: black;
+  width: 200px;
+  height: 100px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  margin-right: 20px;
+}
+
+button {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  padding: 10px 20px;
+  border-radius: 50px;
+  border: none;
+  transition: 0.5s;
+}
+
+.buttons {
+  cursor: pointer;
+  display: flex;
+  gap: 5px;
+}
+
+.primary {
+  margin: 20px;
+  background-color: blue;
+  color: white;
+}
+.primary:hover {
+  background-color: rgb(6, 6, 163);
+}
+.firstly {
+  background-color: rgb(52, 192, 99);
+  color: white;
+}
+.firstly:hover {
+  background-color: rgb(33, 119, 62);
+}
+
+.secondary {
+  background-color: rgb(205, 49, 244);
+  color: white;
+}
+.secondary:hover {
+  background-color: rgb(142, 37, 169);
+}
+
+.list {
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px;
+}
+
+.list-posts {
+  width: 600px;
+  background-color: rgb(88, 243, 140);
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+.title-post {
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.post-user {
+  color: rgb(88, 243, 140);
+}
+
+.modal {
+  font-size: 20px;
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  padding: 20px;
+  border-radius: 12px;
+  background-color: white;
+}
+
+.title-albums {
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+}
+.close-modal {
+  cursor: pointer;
+  margin-right: 10px;
+  transition: 0.5s;
+}
