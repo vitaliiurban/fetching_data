@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/fetching-data/static/css/main.3d613d04.css",
+    "main.js": "/fetching-data/static/js/main.72d350f0.js",
+    "index.html": "/fetching-data/index.html",
+    "main.3d613d04.css.map": "/fetching-data/static/css/main.3d613d04.css.map",
+    "main.72d350f0.js.map": "/fetching-data/static/js/main.72d350f0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3d613d04.css",
+    "static/js/main.72d350f0.js"
+  ]
+}
